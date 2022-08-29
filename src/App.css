@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+.App {
+  width: 100vw;
+  height: 100vh;
+
+
+  flex-direction: column;
+  font-family: "Nunito", sans-serif;
+}
+
+.App .openModalBtn {
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 6px;
+  background-color: cornflowerblue;
+  color: white;
+  cursor: pointer;
+}
+
+
+
+
+body{
+background-color: rgb(209, 221, 225);
+
+}
+h1{
+  color: rgb(84, 84, 93);
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+}
+.App {
+  text-align: center;
+}
+
+input{
+  height: 25px;
+  width: 230px;
+  margin-top: 14px;
+  border: 1px solid rgb(133, 176, 207);
+  border-radius: 25px;
+  text-align: center;
+}
+
+
+
+.input1{
+  height: 25px;
+  width: 250px;
+
+  border: 1px transparent rgb(133, 176, 207);
+  border-radius: 25px;
+  text-align: center;
+}
+
+.input2{
+  height: 25px;
+  width: 250px;
+
+  border: 1px transparent rgb(133, 176, 207);
+  border-radius: 25px;
+  text-align: center;
+}
+
+button{
+  border: 1px solid rgb(65, 109, 140);
+  background-color: rgb(213, 234, 236);
+  color: rgb(77, 76, 81);
+  margin-top: 18px;
+  width: 100px;
+
+}
+
+

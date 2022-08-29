@@ -1,0 +1,125 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h5{
+    color: rgb(30, 27, 57);
+    font-weight: 400;
+    display: block;
+    justify-content: left;
+    letter-spacing: 1px;
+}
+
+.card{
+    background-color: grey;
+    margin: 20px 10px 40px 0;
+}
+
+
+
+
+.container:hover{
+    transition: 0.5s;
+    transform: translateY(10px);
+    
+ 
+}
+
+
+
+
+.card:hover{
+    color:#f5f7f9;
+    transition: 0.5s;
+    border: 1px solid transparent;
+  }
+  
+  
+  .card:hover h5{
+   font-weight: 800;
+   transition: all 0.6s ease-in-out;
+   color: #f5f7f9;
+  }
+
+.info{
+    color: rgba(255, 255, 255, 0.766);
+    letter-spacing: 2px;
+    font-weight: 400;
+    
+
+}
+
+input{
+    box-shadow: 5px 8px 10px rgba(0, 0, 0.3, 0.3);
+}
+
+.btn{
+    box-shadow: 5px 8px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+.btn1{
+    width: 140px;
+    height: 30px;
+    background-color: crimson;
+    color: #f5f7f9;
+}
+
+.btn2{
+    width: 140px;
+    height: 30px;
+    margin-top: 10px;
+    color: #f5f7f9;
+    background-color: rgb(123, 170, 214);
+  
+}
+
+ .btn2:hover{
+    transition: 0.5s ease-out;
+    font-weight: 400;
+    transform: translateY(-5px);
+    letter-spacing: 3px;
+    background-color: aquamarine;
+
+}
+
+.btn1:hover{
+    transition: 0.5s ease-out;
+    font-weight: 400;
+    transform: translateY(-5px);
+    letter-spacing: 3px;
+    background-color: rgb(195, 45, 75);
+
+}
+
+
+
+
+
+.info:hover{
+    transition: 0.5s ease-out;
+    font-weight: 500;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    color: rgb(172, 224, 224);
+    letter-spacing: 4px;
+    transform: translateY(-5px);
+   }
+   
+
+.info::before:hover{
+    transition: 0.3s ease-out;
+    font-weight: 500;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    color: rgb(172, 224, 224);
+   }
+   
+
+.info::after:hover{
+ transition: 0.2s ease-in;
+ font-weight: 400;
+ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+ color: rgb(172, 224, 224);
+}
+
+
+
